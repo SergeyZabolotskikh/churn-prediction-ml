@@ -1,0 +1,7 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+graphviz       # Required for decision tree visualization
+ipython        # Needed for IPython.display.SVG (tree display)
