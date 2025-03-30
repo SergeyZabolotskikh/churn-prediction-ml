@@ -6,14 +6,14 @@ This folder contains the Jupyter notebook, dataset, and saved model for customer
 
 - `ML_Project - Part A.ipynb` — Main notebook with data exploration, training, and evaluation
 - `churn.csv` — Customer data used for training
-- `rf_model.pkl` — Trained Random Forest model
-- `scaler.pkl` — Scaler used to normalize input features (for KNN or prediction API)
+- `rf_model.joblib` — Trained Random Forest model
+- `scaler.joblib` — Scaler used to normalize input features (for KNN or prediction API)
 
 ## How to Use
 
 1. Open `ML_Project.ipynb` in Jupyter or JupyterLab
 2. Run all cells to retrain the model
-3. Output files are saved to `.pkl` for use in the FastAPI app
+3. Output files are saved to `.joblib` for use in the FastAPI app
 
 
 ## Graphviz system dependency (not just Python package)
