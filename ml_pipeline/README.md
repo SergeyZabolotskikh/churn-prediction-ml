@@ -6,15 +6,20 @@ This folder contains the Jupyter notebook, dataset, and saved model for customer
 
 - `ML_Project - Part A.ipynb` — Main notebook with data exploration, training, and evaluation
 - `churn.csv` — Customer data used for training
-- `rf_model.joblib` — Trained Random Forest model
+- `random_forest_best_model.joblib` — Trained Random Forest model
+- `decision_tree_best_model.joblib` - Decision Tree model
+- `best_knn_model.joblib` - KNN model
 - `scaler.joblib` — Scaler used to normalize input features (for KNN or prediction API)
-
+- `churn.json` - Data to predict, loaded to MongoDB first of all
+- `ML Project - Part B.ipynb` - Notebook with data prediction for churn.json, after applying ML, the data is exported into csv in the same format as churn.csv 
+- 
 ## How to Use
 
-1. Open `ML_Project.ipynb` in Jupyter or JupyterLab
+1. Open `ML_Project - Part A.ipynb` in Jupyter or JupyterLab
 2. Run all cells to retrain the model
 3. Output files are saved to `.joblib` for use in the FastAPI app
-
+4. Load churn.json into MongoDB
+5. Execute `ML_Project - Part B.ipynb` in Jupyter or JupyterLab
 
 ## Graphviz system dependency (not just Python package)
 
